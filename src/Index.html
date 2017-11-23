@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Inicia el Html-->
-<!--lang="es" lenguaje en español, lectores de pantalla -->
+    <!--Inicia el Html-->
+    <!--lang="es" lenguaje en español, lectores de pantalla -->
 <html lang="es">
     <!--Nombre de la pagina en la pestaña -->
     <head>
@@ -14,18 +14,101 @@
      <header>
          <!--Listado de opciones del menu en orden-->
          <nav>
+             <!--Titulo Principal-->
+             <h2>Menú de Navegación</h2>
              <!--No esta el listado en orden -->
              <ul>
                  <!--Hacia donde navegare -->
                  <li> <a href="#">Home </a></li>
                  <!--span se escucha pero no se ve en la pagina -->
-                 <li><a href="#"><span>¿que es yo te adopto?</span>Acerca</a></li>
+                 <li><a href="#"><span>¿Que es yo te adopto?</span>Acerca</a></li>
                  <li><a href="#">Me Adoptas </a></li>
                  <li><a href="#">Campañas </a></li>
                  <li><a href="#">Testimonios </a></li>
              </ul>
          </nav>
      </header>
+     <!--Main todo lo importante del la programacion -->
+     <main>
+         <section>
+             <!--Titulo principal de la pagina Home -->
+             <h1> Yo Te adopto</h1>
+             <p>Hogar para Nuestros Amigos</p>
+         </section>
+         <!--Subtitulo de la pagina -->
+         <!--Seccion de Menu de mascotas -->
+         <section>
+                <!--Titulo principal de la pagina Home -->
+                <h2>Que es yo te Adopto?</h2>
+                <!--Lorem para agregar texto al azar. por si no se tiene un texto definido -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magnam, perspiciatis provident nisi voluptatem sit natus beatae possimus nesciunt quibusdam sint temporibus atque quas minima id expedita laboriosam labore laudantium?</p>
+            </section>
+            <section>
+                <h2>Busco un Hogar, ¿Me adoptas?</h2>
+                <!--Va dentro del section y va la informacion especifica de algun tema -->
+                <article>
+                        <h3>Casimiro</h3>
+                        <!--Lorem para agregar texto al azar. por si no se tiene un texto definido -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias, deserunt pariatur et autem quod dicta doloribus sint omnis sequi, ullam voluptatem! Quisquam accusantium voluptates doloremque eius dolor tenetur? Commodi.</p>
+                </article>
+                <article>
+                        <h3>Felipe Gato</h3>
+                        <!--Lorem para agregar texto al azar. por si no se tiene un texto definido -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias, deserunt pariatur et autem quod dicta doloribus sint omnis sequi, ullam voluptatem! Quisquam accusantium voluptates doloremque eius dolor tenetur? Commodi.</p>
+                 </article>
+                 <article>
+                        <h3>Conejo Benito</h3>
+                        <!--Lorem para agregar texto al azar. por si no se tiene un texto definido -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias, deserunt pariatur et autem quod dicta doloribus sint omnis sequi, ullam voluptatem! Quisquam accusantium voluptates doloremque eius dolor tenetur? Commodi.</p>
+                </article>
+            </section>
+            <!--Seccion de Testimonios -->
+            <section>
+                <!--Titulo -->
+                <h2>Testimonios</h2>
+                <!-- Un texto especifico, o frase importante -->
+                <blockquote>
+                        La grandeza de una nación y su progreso moral puede ser juzgado por la forma en que sus animales son tratado -MAHATMA GANDHI
+                </blockquote>
+            </section>
+             <!--Seccion de Campañas de vacunación -->
+            <section>
+                <h2>Próximas campañas de vacunación</h2>
+                <article>
+                    <!--Titulo -->
+                    <h3>Antirrabica</h3>
+                 <!--Para poner una fecha en la pagina TIME-->
+                 <!--DATETIME fecha de acuerdo a eu -->
+                 <time datetime="2017-11-25">Sábado 25 de noviembre del 2017</time>
+                 <!--Horario de el negocio -->
+                 <address>
+                     Palacio de las Mascotas 
+                      <!--Horario de 24 hrs  -->
+                    <time datetime="08:00">8:00 am</time>
+                    <time datetime="15:00">3:00 pm</time>
+                    </address>
+                     <!--Abreviar una palabra ABBR y mostrar el texto al pasar el cursor-->
+                 costo $200 <abbr title="Peso Mexicano ">MXN</abbr>
+                </article>
+            </section>
+            
+            <!--Pie de Pagina de redes sociales -->
+            <footer> 
+                <!--Lista de texto agregar por defaul sin compiar (ul>li*3)-->
+                <!--ul>li*3    el numero por cantidad de filas -->
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+                <!--Patrocinadores -->
+                <ul>
+                        <li><a href="#">KOC</a></li>
+                        <li><a href="#">Jony Terror</a></li>
+                </ul>
+                <!--&copy darle forma al formato de c en circulo -->
+                        Yo te Adopto &copy;2017
+                </footer>
+     </main>
     </body>
-
 </html>
